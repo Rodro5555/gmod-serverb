@@ -1,0 +1,10 @@
+ENT.Type = "anim"
+ENT.Base = "base_entity"
+ENT.RenderGroup = RENDERGROUP_BOTH
+ENT.Spawnable = true
+ENT.AdminSpawnable = false
+ENT.PrintName = "Transport Palette"
+ENT.Author = "ClemensProduction aka Zerochain"
+ENT.Information = "info"
+ENT.Category = "Zeros OilRush"
+ENT.Model = "models/props_junk/wood_pallet001a.mdl"

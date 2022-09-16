@@ -1,0 +1,46 @@
+include("shared.lua")
+
+
+function ENT:Draw()
+
+    self:DrawModel()
+	
+	local angle = self.Entity:GetAngles()	
+	
+	local position = self.Entity:GetPos() + angle:Forward() * 13.3 + angle:Up() * 5 + angle:Right() * 0
+	
+	angle:RotateAroundAxis(angle:Forward(), 90);
+	angle:RotateAroundAxis(angle:Right(),-90);
+	angle:RotateAroundAxis(angle:Up(), 0);
+		
+	local encsize = 1
+	local perc = math.Round(self:GetFood()/300*100)
+	
+	cam.Start3D2D(position, angle, 0.1)
+	
+		draw.RoundedBox( 0, -70-encsize, -10-encsize + (1*20-20), encsize, 2+encsize*2, Color(255,255,255,255) )
+		draw.RoundedBox( 0, 70, 10-encsize-2+ (1*20-20), encsize, 2+encsize*2, Color(255,255,255,255) )
+		draw.RoundedBox( 0, -70-encsize, 10-encsize-2+ (1*20-20), encsize, 2+encsize*2, Color(255,255,255,255) )
+		draw.RoundedBox( 0, 70, -10-encsize+ (1*20-20), encsize, 2+encsize*2, Color(255,255,255,255) )
+		draw.RoundedBox( 0, -70, -10-encsize+ (1*20-20), 2+encsize, encsize, Color(255,255,255,255) )
+		draw.RoundedBox( 0, 70-encsize-2, -10-encsize+ (1*20-20), 2+encsize, encsize, Color(255,255,255,255) )
+		draw.RoundedBox( 0, 70-encsize-2, 10+ (1*20-20), 2+encsize, encsize, Color(255,255,255,255) )
+		draw.RoundedBox( 0, -70, 10+ (1*20-20),  2+encsize, encsize, Color(255,255,255,255) )
+		
+		draw.RoundedBox( 0, -70, -10+ (1*20-20), 140, 20, Color(0,0,0,100) )
+		draw.SimpleTextOutlined(FarmingMod.Config.Lang["Wheat"][FarmingMod.Config.CurrentLang].." : "..perc.."%", "Trebuchet24" ,0,(1*20-20), Color(255,255,255,255), 1, 1, 0.5, Color(0,0,0,255))
+	
+	cam.End3D2D()
+	
+	if perc <= 0 then return end
+	
+	local angle = self.Entity:GetAngles()
+	local position = self.Entity:GetPos() + angle:Forward() * 0 + angle:Up() * 5 * perc/100 + angle:Right() * 0
+
+	cam.Start3D2D(position, angle, 0.1)
+		local sizex = 263
+		local sizey = 385
+		
+		draw.RoundedBox( 130,-sizex/2,-sizey/2,sizex,sizey, Color(135,85,40,255) )
+	cam.End3D2D()
+end

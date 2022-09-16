@@ -1,0 +1,103 @@
+﻿A brand new selection of features and tools for bitminers. Remote control and view stats of your bitminer, hack bitminers and take control, repair entities and more!
+
+This addon is DLC for the addon Bitminers (Miner Shelf, Power Sources, Cables, Animations & Custom Models)
+
+Upgrade your bitmining experience with this new DLC. Use the tablet to connect remotely with bitminers that you control. View live statistics directly from your connected bitminer entity and withdraw money wirelessly.
+
+Drag and drop the new USB entity on bitmining shelf's to begin hacking process. Software installation visuals appear on the screen and USB is plugged into PC on bitminer shelf. Hacking has a configurable chance of succeeding.
+
+Using the new repair wrench tool/weapon, you can repair any bitminer entity.
+
+Features
+
+🖥️ Remote Bitminer Tablet
+
+    Ability to link your bitminers to a handheld tablet.
+    Linked bitminer stats are shown directly on the tablet screen.
+    Withdraw money wirelessly from the bitminer with right click.
+    Link hacked bitminer shelf's with the tablet.
+    Custom model and animations.
+
+
+🏴‍☠️ USB Hacking Device
+
+    Drop the USB flash drive on any bitminer to start hacking them.
+    Hacking unlocks the bitminer, so anyone can interact with it.
+    Configurable hacking fail chance.
+    Features a hacking screen on the bitminer shelf when software is installing.
+    A unlocked icon will appear on the screen of successfully hacked bitminers.
+    A new lock icon is present on the bitminer screen.
+    Shows an unlocked icon when a bitminer has been hacked.
+
+
+🔧 Repairing Entities
+
+    Purchase a wrench to repair damaged bitminer entities.
+    When close to heal-able bitminer entities, their health will appear when wrench is equipped.
+    Custom models, materials & animations.
+    Damage players using the wrench as a melee weapon.
+    Configurable min/max healing values (randomized).
+
+
+💻 bLogs Support
+
+    Linking bitminers.
+    Hacking initiated.
+    Hacking successful.
+    Remote withdrawals.
+
+
+💯 Level System Support
+
+    Support for Sublime Levels.
+    Support for Vrondakis Level System.
+    Give experience upon successfully hacking a bitminer.
+
+
+🌎 Language System
+
+    English
+    Danish
+    French
+    Russian
+    Turkish
+
+Installation & Content
+
+This addon supports DarkRP 2.7.0+
+
+Extract "ch_bitminers_dlc" to addons!
+
+Once you've done that, you can find the entities in your F4 menu. Everything is automatically added to your F4 in the category "Bitminer Equipment" - Both in under entities and weapons.
+
+Content
+
+Only custom models and materials are used for this script. Script content can be found at:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2221713408
+
+Make sure to add this to your servers workshop collection as well.
+
+Remember to also subscribe to the content for the primary addon: https://steamcommunity.com/sharedfiles/filedetails/?id=2072136134
+
+Customizing
+
+To customize the general settings, go to ch_bitminers_dlc/lua/ch_bitminers_dlc/shared/bitminers_dlc_config.lua
+
+To customize the darkrp entities, go to ch_bitminers_dlc/lua/ch_bitminers_dlc/shared/bitminers_dlc_darkrp_entities.lua
+
+Errors & Support
+
+If you find any problems with the script, please create a support ticket with details of the situation and a copy/paste of the error in console. I am also not interested in modifying you a custom version of the addon. Also not upon payment. Sorry!
+
+Conflicting addons is not to be said if I will support that or not. This is something I will decide upon confrontation about a conflicting addon. If you have some sort of proof that an addon is conflicting with my addon, please send me a PM with the details you might have.
+
+Thank you!
+
+Credits
+
+Custom models and materials made by Sterling Pierce.
+
+Banners made by Miskie
+
+Icons made by Freepik from Flaticon.

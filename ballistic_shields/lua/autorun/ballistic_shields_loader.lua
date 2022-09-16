@@ -1,0 +1,12 @@
+if SERVER then
+	AddCSLuaFile("ballistic_shields/cl_bs_util.lua")
+	AddCSLuaFile( "ballistic_shields/sh_bs_util.lua" )
+	AddCSLuaFile( "ballistic_shields/sh_bs_lang.lua" )
+	AddCSLuaFile("libraries/cl_surfacegeturl.lua")
+	AddCSLuaFile("bs_config.lua")
+end
+include( "bs_config.lua" )
+include( "libraries/cl_surfacegeturl.lua" )
+include( "ballistic_shields/cl_bs_util.lua" )
+include( "ballistic_shields/sh_bs_util.lua" )
+include( "ballistic_shields/sh_bs_lang.lua" )

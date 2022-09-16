@@ -1,0 +1,11 @@
+ENT.Type = "anim"
+ENT.Base = "base_gmodentity"
+ENT.PrintName = "WoodCutter-sawmill"
+ENT.Category = "Realistic-WoodCutter"
+ENT.Author = "Kobralost & Jhon"
+ENT.Contact = ""
+ENT.Purpose = ""
+ENT.Information = ""
+ENT.AutomaticFrameAdvance = true
+ENT.Spawnable = true
+ENT.AdminSpawnable = true

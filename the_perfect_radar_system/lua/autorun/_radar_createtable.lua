@@ -1,0 +1,11 @@
+Diablos = Diablos or {}
+Diablos.RS = {}
+Diablos.RS.Colors = {}
+Diablos.RS.Download = {}
+Diablos.RS.Frame = {}
+Diablos.RS.Records = {}
+Diablos.RS.Logs = {}
+Diablos.RS.Strings = {}
+Diablos.RS.RadarCounter = {}
+Diablos.RS.RadarTable = {}
+Diablos.RS.RadarOwnerID = 1000

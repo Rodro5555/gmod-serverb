@@ -1,0 +1,7 @@
+MMF.Phrases.NextStep = "Siguiente paso"
+MMF.Phrases.PutOnHeater = "Colocar la caldera en el calentador"
+MMF.Phrases.SetOnFire = "Pon los ingredientes y enciende el calentador"
+MMF.Phrases.WaitFinish = "Espera a que finalice la preparación"
+MMF.Phrases.CollectOnSpigot = "Toma la poción de la espita"
+MMF.Phrases.WaitPotion = "Espera a la poción"
+MMF.Phrases.PotionBurned = "La poción se ha quemado, deshazte de ella"

@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/zerochain/props_trashman/ztm_leafpile.mdl"
+ENT.Spawnable = true
+ENT.AdminSpawnable = false
+ENT.PrintName = "LeafPile"
+ENT.Category = "Zeros Trashman"
+ENT.RenderGroup = RENDERGROUP_OPAQUE

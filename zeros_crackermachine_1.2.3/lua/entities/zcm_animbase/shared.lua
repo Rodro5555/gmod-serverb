@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/zerochain/props_crackermaker/zcm_paperroller.mdl"
+ENT.Spawnable = false
+ENT.AdminSpawnable = false
+ENT.PrintName = "BaseAnim"
+ENT.Category = "Zeros Crackermachine"
+ENT.RenderGroup = RENDERGROUP_OPAQUE

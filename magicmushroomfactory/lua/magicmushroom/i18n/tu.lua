@@ -1,0 +1,7 @@
+MMF.Phrases.NextStep = "Sonraki adım"
+MMF.Phrases.PutOnHeater = "Kazanı ocağa yerleştirin"
+MMF.Phrases.SetOnFire = "Malzemeleri kazana yerleştirin ve ocağı yakın"
+MMF.Phrases.WaitFinish = "Karışımın bitmesini bekleyin"
+MMF.Phrases.CollectOnSpigot = "Kazanın musluğundan karışımı toplayın"
+MMF.Phrases.WaitPotion = "İksirin hazırlanmasını bekleyin"
+MMF.Phrases.PotionBurned = "İksir yandı, atın gitsin"

@@ -1,0 +1,1 @@
+TEAM_CITYWORKER = DarkRP.createJob( CITYWORKER.Config.Job.name, CITYWORKER.Config.Job )

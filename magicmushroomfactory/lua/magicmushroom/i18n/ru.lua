@@ -1,0 +1,7 @@
+MMF.Phrases.NextStep = "Следующий шаг"
+MMF.Phrases.PutOnHeater = "Поставьте котел в нагреватель"
+MMF.Phrases.SetOnFire = "Положите ингредиенты и поставьте нагреватель на огонь"
+MMF.Phrases.WaitFinish = "Подождите, чтобы закончить подготовку"
+MMF.Phrases.CollectOnSpigot = "Соберите зелье в котле"
+MMF.Phrases.WaitPotion = "Дождитесь зелья"
+MMF.Phrases.PotionBurned = "Зелье сгорело, выбросьте"

@@ -1,0 +1,2 @@
+if slib then slib.loadFolder("s_reward/", true, {{"s_reward/", "sh_sreward_config.lua"}, {"s_reward/", "sv_sreward_config.lua"}, {"s_reward/core/", "sv_storage.lua"}}) end
+hook.Add("slib:loadedUtils", "sR:Init_SReward", function() slib.loadFolder("s_reward/", true, {{"s_reward/", "sh_sreward_config.lua"}, {"s_reward/", "sv_sreward_config.lua"}, {"s_reward/core/", "sv_storage.lua"}}) end)

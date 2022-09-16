@@ -1,0 +1,79 @@
+This scripts adds a beautiful advanced cocaine factory to your server. We all love drug scripts and this one is stuffed with features, custom models, animations and blend sequences. A druggie NPC gives you the ability to cook cocaine and make a large profit by selling it.
+
+With the many entities that this script features, you will have a full cocaine factory on your server. Players can cook cocaine on a stove, use the extractor to blend it all together and get raw cocaine, to then dry it under lamps to finish the process.
+
+Not only that, but once cocaine has been fully dried it can be packed into the cocaine box, which is then brought to the druggie who will offer you a price for your hard work.
+
+Awesome right?
+
+Features
+
+?? Total of 13 entities with high quality custom models and materials.
+
+?? Cooking stove with realistic gas, temperature system and custom flame effects.
+
+?? Cocaine extractor with lights and custom animations.
+
+?? Drying rack entity to finish the process.
+
+?? Blend sequences are used on models instead of old boring 3D2D.
+
+?? Druggie NPC to sell your finished product.
+
+?? Randomized payout from the NPC based on your rank (if enabled).
+
+?? Donator bonus system for ULX that can be customized.
+
+?? Police confiscating system for the cocaine drug holder entity.
+
+?? Entities can explode when taking damage & supports my DarkRP Fire System.
+
+?? Cooking stove is upgradeable, so you can add more cooking plates and gas.
+
+?? Entities use different effects when destroyed. Water effects, sparkling and explosives.
+
+?? You can configure all entities prices & amounts in cocaine_darkrp_entities.lua.
+
+?? Druggie NPC supports saving on multiple maps.
+
+?? Over 25 customizable values for entities are available in cocaine_config.lua.
+
+Installation
+
+This addon supports DarkRP 2.7.0 and above.
+
+Extract "the_cocaine_factory" to your addons and visit the configuration file at lua/autorun/cocaine_config.lua to set your own settings or just use the default ones.
+
+How It Works
+
+Step 1.
+
+Purchase a stove entity. The stove will need to have gas and cooking plates. You can buy the amount of cooking plates you want to start out with, and add more afterwards.
+
+Purchase a cooking pot, fill it with water and baking soda and drop it onto the stove. It will attach to an available cooking plate.
+
+Once the pots are attached the thermometer becomes visible and you will turn on the gas for the plate(s). When it is cooked the color of the mixture will change, and you can use the gravity gun or physgun to take it off the stove.
+
+Step 2.
+
+Next step is buying the extractor and fill it with leaves and the finished mixture from the pots (also known as carbonate). When the extractor is filled, the red lights will turn off and a green light will appear instead.
+
+Place a bucket in the extractor until all red laps are off, and press E on the switch to start the extracting process. Watch the beautiful blend sequences move the arrows accordingly to the process and watch the bucket get filled with raw cocaine.
+
+Once the bucket is finished, green lamps will appear and you can remove it from the extractor. The gauge meter (displayed with a bucket icon on model) will also slide back to 0.
+
+Step 3.
+
+Purchase a drying rack and drag the bucket to the table. Once it touches the cocaine will be poured over the table, and it will start to dry.
+
+You can follow the progress by looking on the right side as an arrow will move as the temperature rises on the table.
+
+When the process is finished, the packed cocaine will appear on the table.
+
+Step 4.
+
+The last part is buying a cocaine box (drug holder). Drag and drop your packed cocaine into the box. You can press E on the box to open and close it.
+
+Once you have cocaine packs in the box (you can have up to 4 packs), bring it to the druggie NPC on the map and speak to him.
+
+He will offer you a price based on the amount of cocaine packs you have in your box, and based on your donator bonus.

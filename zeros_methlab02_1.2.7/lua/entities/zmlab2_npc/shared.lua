@@ -1,0 +1,9 @@
+ENT.Base = "base_ai"
+ENT.Type = "ai"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/Humans/Group03/male_07.mdl"
+ENT.Spawnable = true
+ENT.AdminSpawnable = false
+ENT.PrintName = "NPC"
+ENT.Category = "Zeros Methlab 2"
+ENT.RenderGroup = RENDERGROUP_BOTH

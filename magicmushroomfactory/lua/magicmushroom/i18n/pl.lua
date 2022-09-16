@@ -1,0 +1,7 @@
+MMF.Phrases.NextStep = "Następny krok"
+MMF.Phrases.PutOnHeater = "Umieść kocioł w grzałce"
+MMF.Phrases.SetOnFire = "Włóż składniki i podpal grzałkę"
+MMF.Phrases.WaitFinish = "Poczekaj na zakończenie przygotowań"
+MMF.Phrases.CollectOnSpigot = "Zbierz miksturę z kotła za pomocą kranika"
+MMF.Phrases.WaitPotion = "Poczekaj na eliksir"
+MMF.Phrases.PotionBurned = "Mikstura się spaliła, wyrzuć ją"

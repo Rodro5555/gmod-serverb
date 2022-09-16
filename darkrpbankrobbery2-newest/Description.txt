@@ -1,0 +1,71 @@
+﻿This addon features a new way for criminals to mess around with the police team. It's Cops vs Robbers all over again, and your criminals must try to avoid getting killed by the police when robbing the bank.
+
+In 2014 I released the very first version of my bank robbery system, which quickly become one of the most popular addons on the site (old site CoderHire). This was the first bank robbery system available for sale and many amazing scripts have since been released based on the idea of Cops vs Robbers.
+
+You will always still be able to find the old version of my bank robbery script here.
+
+This script allows for multiple robbers to steal money from the bank vault together or individually. Once a robbery is initialized, police are alerted and must fight against the criminals to stop the robbery. If all robbers dies, the robbery fails and the police are rewarded for killing robbers. However, if at least one robber survives the heist, then the robbery is successful and money is rewarded. It is either split between alive robbers or dropped next to the vault (based on configuration).
+
+Features
+
+✔️ Rob-able bank vault. 
+✔️ The vault automatically generates money. Duration, amount, etc is configurable.
+✔️ The bank displays a cooldown timer on the vault.
+✔️ The bank displays a countdown timer on the vault when it's under attack.
+✔️ The bank displays current robbers on the vault when it's under attack.
+✔️ Alarm sound goes off when the bank is being robbed. Sound, volume and duration can be changed in the config.
+✔️ Notifies police when a bank robbery starts.
+✔️ Allows for maximum 4 robbers at once.
+✔️ Robbers get wanted when starting/joining a robbery.
+✔️ Command to permanently save bank vault and it saves by map.
+✔️ Distance system. The robbers must stay within the bank or the robbery will fail. Distance is configurable. 
+✔️ Uses easy to understand tables for police teams and other settings. 
+✔️ bLogs support.
+✔️ Over 20 core settings for you to configure.
+✔️ Over 45 design settings for the bank vault for you to configure.
+✔️ Sleek design.
+✔️ And much more!
+
+Installation
+
+This addon supports DarkRP 2.7+
+
+Other newer versions should also work. If they do not, please create a ticket so this can be sorted.
+
+Extract "darkrpbankrobbery2" to your addons!
+
+Once you've done that, you will want to set up the location of your bank vault.
+
+All you have to do now is launch your server, find a fitting spot for the vault, type newbankvault_setpos in console and restart your server.
+
+If you want to set the vault at another location, just repeat the step above. It will now show up at your newest given position after 5 seconds.
+
+The bank vault angles are set according to the administrator running the command.
+
+Customizing
+
+The new version of this script features a much wider selection of configs. Especially if you've always wanted to configure the looks of the bank.
+
+Default Settings
+
+To customize the addons default core settings, go to darkrpbankrobbery2/lua/ch_bank_robbery/shared/bank_config.lua.
+
+You will find configurations for most of the variables in the script here.
+
+Design Settings
+
+To customize the looks of the bank vault entity, go to darkrpbankrobbery2/lua/ch_bank_robbery/shared/bank_config_design.lua.
+
+In here you will be able to change all the text on the bank vault and every color.
+
+Errors & Support
+
+If you find any problems with the script, please create a support ticket through the site! It is important that you include a description of the problem and all errors.
+
+Additionally, I rarely give additional support for my scripts. If there is a general error with the script, that is fine, refer to the text above.
+
+I am also not interested in modifying you a custom version of the addon. Also not upon payment. Sorry!
+
+Conflicting addons is not to be said if I will support that or not. This is something I will decide upon confrontation about a conflicting addon. If you have some sort of proof that an addon is conflicting with my addon, please create a ticket with the details you might have.
+
+Thank you!

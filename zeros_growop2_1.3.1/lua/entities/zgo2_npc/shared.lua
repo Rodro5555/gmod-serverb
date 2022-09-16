@@ -1,0 +1,10 @@
+ENT.Type                    = "ai"
+ENT.Base                    = "base_ai"
+ENT.AutomaticFrameAdvance   = true
+ENT.PrintName               = "Weed Dealer"
+ENT.Author                  = "ZeroChain"
+ENT.Category                = "Zeros GrowOP 2"
+ENT.Spawnable               = true
+ENT.AdminSpawnable          = false
+ENT.RenderGroup             = RENDERGROUP_BOTH
+ENT.Model 					= "models/Eli.mdl"

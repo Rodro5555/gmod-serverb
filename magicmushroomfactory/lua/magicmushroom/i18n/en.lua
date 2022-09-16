@@ -1,0 +1,7 @@
+MMF.Phrases.NextStep = "Next step"
+MMF.Phrases.PutOnHeater = "Put the cauldrom in the heater"
+MMF.Phrases.SetOnFire = "Put the ingredients and set the heater on fire"
+MMF.Phrases.WaitFinish = "Wait to finish preparing"
+MMF.Phrases.CollectOnSpigot = "Collect the potion on the spigot"
+MMF.Phrases.WaitPotion = "Wait for the potion"
+MMF.Phrases.PotionBurned = "The potion has burned, throw away"
